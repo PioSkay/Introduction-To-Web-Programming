@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Corben:700');
+
+:root{
+    --Color: #2a94f8;
+}
+
+body{
+    background-color : white;
+    font-family: 'bebas', sans-serif;
+}
+.examples{
+    Color: var(--Color);
+    font-family: 'bebas', sans-serif;
+}
+
+.embed-responsive{
+    width: 30%;
+    height: 30%;
+}
+
+.mainpage {
+    background-color: white;
+    max-width: 540px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.subsection {
+    color : var(--Color);
+    border-width:2px;
+    border-style:solid;
+    margin-top:20px;
+    font-size:15px;
+    padding:25px;
+    border-radius:30px;
+}
+.examples{
+    align-content:center;
+}
+
+@media (min-width: 576px) {
+  .mainpage {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mainpage {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mainpage {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mainpage {
+    max-width: 1140px;
+  }
+}

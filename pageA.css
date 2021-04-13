@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Corben:700');
+:root{
+    --Color: #2a94f8;
+}
+
+body{
+    background-color : white;
+    font-family: 'bebas', sans-serif;
+}
+
+.btn-group {
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:0px;
+  padding-right:60px;
+  text-align:center;
+  align-content:center;
+}
+@media (max-width: 768px) {
+  .btn-group {
+    padding-right:0px;
+  }
+}
+
+#msg{
+    color : var(--Color);
+    text-align:center;
+    font-size: 70;
+}
